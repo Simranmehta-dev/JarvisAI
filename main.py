@@ -8,7 +8,7 @@ import openai
 
 speaker = win32com.client.Dispatch("SAPI.SpVoice")
 def ai(prompt):
-    openai.api_key = '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'
+    openai.api_key = 'your open ai key'
     text = f"OpenAI response for Prompt: {prompt} \n *************************\n\n"
     messages = [
         {"role": "system", "content": "You are a helpful assistant."},
